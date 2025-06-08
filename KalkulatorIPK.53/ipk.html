@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <h2>Kalkulator IPK</h2>
+
+  <div id="input-nilai">
+    <p>Masukkan nilai dan SKS (per mata kuliah):</p>
+
+    <div>
+      <label>Nilai 1:</label>
+      <input type="number" class="nilai" placeholder="Contoh: 3.5" step="0.01">
+      <input type="number" class="sks" placeholder="SKS" step="1">
+    </div>
+
+    <div>
+      <label>Nilai 2:</label>
+      <input type="number" class="nilai" placeholder="Contoh: 3.0" step="0.01">
+      <input type="number" class="sks" placeholder="SKS" step="1">
+    </div>
+
+    <div>
+      <label>Nilai 3:</label>
+      <input type="number" class="nilai" placeholder="Contoh: 4.0" step="0.01">
+      <input type="number" class="sks" placeholder="SKS" step="1">
+    </div>
+
+  </div>
+
+  <button id="btnHitung">Hitung IPK</button>
+
+  <p>Hasil IPK: <span id="hasil">-</span></p>
+  
+  <script src="ipk.js"></script>
+</body>
+</html>

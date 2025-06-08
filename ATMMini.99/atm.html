@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Simulasi ATM Mini</h1>
+
+  <p>Saldo saat ini: <span id="saldoDisplay">Rp 0</span></p>
+
+  <label for="inputJumlah">Jumlah (Rp):</label>
+  <input type="number" id="inputJumlah" min="0" />
+
+  <br/><br/>
+
+  <button id="cekSaldoBtn">Cek Saldo</button>
+  <button id="tarikBtn">Tarik Uang</button>
+  <button id="setorBtn">Setor Uang</button>
+
+  <p id="pesan"></p>
+  
+  <script src="atm.js"></script>
+</body>
+</html>
